@@ -5,5 +5,31 @@
   "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
   "author": "Mark McTamney",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint-config-universe": "^7.0.1",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-graphql": "^4.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-json": "^3.0.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-json-schema-validator": "^1.2.0",
+    "eslint-plugin-jsonc": "^1.4.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-monorepo": "^0.3.2",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "eslint-plugin-yaml": "^0.5.0",
+    "jsonc-eslint-parser": "^1.1.0"
+  }
 }

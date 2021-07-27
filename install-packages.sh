@@ -15,8 +15,10 @@ yarn add \
     eslint-config-universe \
     eslint-import-resolver-typescript \
     eslint-plugin-graphql \
-    eslint-plugin-import \
-    eslint-plugin-json \
+    eslint-plugin-import
+
+# JSON
+eslint-plugin-json \
     eslint-plugin-json-format \
     eslint-plugin-json-schema-validator \
     eslint-plugin-jsonc \
@@ -30,3 +32,6 @@ yarn add \
     @typescript-eslint/parser \
     jsonc-eslint-parser \
     ;
+
+# Optional
+yarn add -D @types/node
