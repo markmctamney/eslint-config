@@ -11,6 +11,11 @@ echo "Installing Dev dependencies..."
 yarn add -D \
     typescript
 
+# Peer
+echo "Install Peer dependencies..."
+yarn add -P -O \
+    graphql
+
 # Base Deps
 echo "Installing base dependencies..."
 yarn add \
@@ -30,7 +35,6 @@ yarn add \
 echo "Installing Typescript dependencies..."
 yarn add \
     eslint-import-resolver-typescript \
-    eslint-plugin-yaml \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser
 
@@ -46,4 +50,5 @@ yarn add \
 # GraphQL/Misc
 echo "Installing miscellaneous dependencies..."
 yarn add \
-    eslint-plugin-graphql
+    eslint-plugin-graphql \
+    eslint-plugin-yaml

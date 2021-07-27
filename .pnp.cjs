@@ -35,7 +35,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@types/node", "npm:16.4.3"],
             ["@typescript-eslint/eslint-plugin", "virtual:eb0af816f1f849418261525ca04ba10a111cdece025ac07f3a6d6ae8dfdcb16a247aa63ddfb92a8e47075a2f5ed404dd42458f718afef482c68ac44cbb94a0a0#npm:4.28.5"],
             ["@typescript-eslint/parser", "virtual:eb0af816f1f849418261525ca04ba10a111cdece025ac07f3a6d6ae8dfdcb16a247aa63ddfb92a8e47075a2f5ed404dd42458f718afef482c68ac44cbb94a0a0#npm:4.28.5"],
             ["eslint-config-universe", "virtual:eb0af816f1f849418261525ca04ba10a111cdece025ac07f3a6d6ae8dfdcb16a247aa63ddfb92a8e47075a2f5ed404dd42458f718afef482c68ac44cbb94a0a0#npm:7.0.1"],
@@ -1696,7 +1695,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["eslint-config-markmctamney", "workspace:."],
-            ["@types/node", "npm:16.4.3"],
             ["@typescript-eslint/eslint-plugin", "virtual:eb0af816f1f849418261525ca04ba10a111cdece025ac07f3a6d6ae8dfdcb16a247aa63ddfb92a8e47075a2f5ed404dd42458f718afef482c68ac44cbb94a0a0#npm:4.28.5"],
             ["@typescript-eslint/parser", "virtual:eb0af816f1f849418261525ca04ba10a111cdece025ac07f3a6d6ae8dfdcb16a247aa63ddfb92a8e47075a2f5ed404dd42458f718afef482c68ac44cbb94a0a0#npm:4.28.5"],
             ["eslint-config-universe", "virtual:eb0af816f1f849418261525ca04ba10a111cdece025ac07f3a6d6ae8dfdcb16a247aa63ddfb92a8e47075a2f5ed404dd42458f718afef482c68ac44cbb94a0a0#npm:7.0.1"],
