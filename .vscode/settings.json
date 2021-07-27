@@ -1,0 +1,71 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.codeActionsOnSave": {
+        "source.removeUnused": false,
+        "source.addMissingImports": true,
+        "source.fixAll": true,
+        "source.organizeImports": false,
+    },
+    "eslint.packageManager": "yarn",
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown",
+        "json",
+        "jsonc",
+        "json5"
+    ],
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "json5",
+        "yaml",
+        "toml"
+    ],
+    "typescript.suggest.completeFunctionCalls": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "typescript.autoClosingTags": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.suggest.autoImports": true,
+    "typescript.suggest.enabled": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "typescript.inlayHints.parameterTypes.enabled": true,
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "typescript.inlayHints.parameterNames.enabled": "all",
+    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+    "vsintellicode.typescript.completionsEnabled": true,
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.suggest.paths": true,
+    "typescript.suggestionActions.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    },
+    "github.copilot.advanced": {
+        "debug.autocomplete.showConfidence": true,
+        "debug.enableRefactor": true,
+        "debug.showScores": true
+    },
+    "files.exclude": {
+        ".git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".history": true,
+    }
+}
