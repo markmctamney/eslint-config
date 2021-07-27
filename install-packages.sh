@@ -1,37 +1,49 @@
 #!/usr/bin/env sh
 
 # Dev + Peer
+echo "Installing Dev + Peer dependencies..."
 yarn add -D -P \
     eslint \
-    prettier \
-    ;
+    prettier
 
 # Dev
-yarn add -D typescript \
-    ;
+echo "Installing Dev dependencies..."
+yarn add -D \
+    typescript
 
-# Deps
+# Base Deps
+echo "Installing base dependencies..."
 yarn add \
     eslint-config-universe \
+    eslint-plugin-import \
+    eslint-plugin-jsx-a11y \
+    eslint-plugin-monorepo
+
+# React / Native
+echo "Installing React dependencies..."
+yarn add \
+    eslint-plugin-react \
+    eslint-plugin-react-hooks \
+    eslint-plugin-react-native
+
+# TS
+echo "Installing Typescript dependencies..."
+yarn add \
     eslint-import-resolver-typescript \
-    eslint-plugin-graphql \
-    eslint-plugin-import
+    eslint-plugin-yaml \
+    @typescript-eslint/eslint-plugin \
+    @typescript-eslint/parser
 
 # JSON
-eslint-plugin-json \
+echo "Installing JSON dependencies..."
+yarn add \
+    eslint-plugin-json \
     eslint-plugin-json-format \
     eslint-plugin-json-schema-validator \
     eslint-plugin-jsonc \
-    eslint-plugin-jsx-a11y \
-    eslint-plugin-monorepo \
-    eslint-plugin-react \
-    eslint-plugin-react-hooks \
-    eslint-plugin-react-native \
-    eslint-plugin-yaml \
-    @typescript-eslint/eslint-plugin \
-    @typescript-eslint/parser \
-    jsonc-eslint-parser \
-    ;
+    jsonc-eslint-parser
 
-# Optional
-yarn add -D @types/node
+# GraphQL/Misc
+echo "Installing miscellaneous dependencies..."
+yarn add \
+    eslint-plugin-graphql

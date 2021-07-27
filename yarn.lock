@@ -431,7 +431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^16.4.3":
   version: 16.4.3
   resolution: "@types/node@npm:16.4.3"
   checksum: 6b5fa8b524a9c770dcb96a24d862f240ce8c0072d7360fd088bfb9c5265b48bd1af58a3dd7f59e266b3214684c251e56bea2b2b0702b9901e57804221b6e07f2
@@ -1193,6 +1193,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-markmctamney@workspace:."
   dependencies:
+    "@types/node": ^16.4.3
     "@typescript-eslint/eslint-plugin": ^4.28.5
     "@typescript-eslint/parser": ^4.28.5
     eslint-config-universe: ^7.0.1

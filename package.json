@@ -6,11 +6,15 @@
   "author": "Mark McTamney",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "packages": "./install-packages.sh"
+  },
   "peerDependencies": {
     "eslint": "*",
     "prettier": "*"
   },
   "devDependencies": {
+    "@types/node": "^16.4.3",
     "typescript": "^4.3.5"
   },
   "dependencies": {
