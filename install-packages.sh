@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 # Dev + Peer
 yarn add -D -P \
     eslint \
