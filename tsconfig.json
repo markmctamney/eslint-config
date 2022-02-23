@@ -1,6 +1,15 @@
 {
     "extends": "./tsconfig.base.json",
 
-    "include": ["src/**/*.js"],
+    "include": [
+        "shared/**/*.js",
+        "default.js",
+        "native.js",
+        "web.js",
+        "next.js",
+        "node.js",
+        "monorepo.js",
+        "dependencies.js"
+    ],
     "exclude": ["node_modules", ".yarn", ".history"]
 }

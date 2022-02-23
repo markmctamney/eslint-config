@@ -1,4 +1,8 @@
 const react = {
+    parserOptions: {
+        ecmaFeatures: { jsx: true },
+    },
+    plugins: ['react', 'react-hooks'],
     rules: {
         /* -------------------------------------------------------------------------- */
         /*                                    React                                   */
