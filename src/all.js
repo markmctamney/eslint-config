@@ -30,6 +30,6 @@ const config = merge(
     graphql
 );
 
-console.log({ config });
+if (process.env.DEBUG) console.log({ config });
 
 module.exports = config;
