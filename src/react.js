@@ -1,4 +1,4 @@
-module.exports = {
+const react = {
     rules: {
         /* -------------------------------------------------------------------------- */
         /*                                    React                                   */
@@ -21,3 +21,5 @@ module.exports = {
         ],
     },
 };
+
+module.exports = react;

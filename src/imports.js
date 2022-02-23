@@ -1,4 +1,4 @@
-module.exports = {
+const imports = {
     extends: ['plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript'],
 
     plugins: ['import'],
@@ -20,7 +20,7 @@ module.exports = {
                 groups: ['unknown', 'type', 'object', 'builtin', 'external', ['parent', 'sibling'], 'index'],
                 pathGroups: [
                     {
-                        pattern: '@nexpo/**', // TODO: unhardcode
+                        pattern: '@nexpo/**',
                         group: 'external',
                         position: 'after',
                     },
@@ -43,3 +43,5 @@ module.exports = {
         },
     ],
 };
+
+module.exports = imports;

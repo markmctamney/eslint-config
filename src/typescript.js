@@ -1,5 +1,5 @@
-module.exports = {
-    parserOptions: { ecmaVersion: 8 }, // to enable features such as async/await
+const typescript = {
+    parserOptions: { ecmaVersion: 8 },
     parser: '@typescript-eslint/parser',
     settings: {
         'import/parsers': {
@@ -8,7 +8,6 @@ module.exports = {
         'import/resolver': {
             typescript: {
                 alwaysTryTypes: true, // always try to resolve types under `<root>/types` directory even it doesn't contain any source code, like `@types`, `types`, `definitions` and etc.
-
                 // A path to a module which exports an object from which all paths will be derived.
                 // This is also used to detect a TypeScript project structure.
                 // Defaults to `process.cwd()`.
@@ -26,7 +25,6 @@ module.exports = {
 
     extends: [
         'plugin:import/typescript',
-
         /**
          * Adds additional TypeScript linting rules.
          *
@@ -59,14 +57,6 @@ module.exports = {
             },
         ],
     },
-
-    // overrides: [
-    //     /** TypeScript checking */
-    //     {
-    //         files: ['**/*.ts', '**/*.tsx', '**/*.d.ts'],
-    //         parser: '@typescript-eslint/parser',
-    //         // parserOptions: { project: ['**/tsconfig.json'] },
-    //         // extends: ['universe/shared/typescript-analysis'],
-    //     },
-    // ],
 };
+
+module.exports = typescript;

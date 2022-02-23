@@ -9,6 +9,7 @@ const monorepo = require('./monorepo');
 const native = require('./native');
 const next = require('./next');
 const node = require('./node');
+const prettier = require('./prettier');
 const react = require('./react');
 const typescript = require('./typescript');
 const typescriptAnalysis = require('./typescript-analysis');
@@ -30,7 +31,8 @@ const config = merge(
     typescriptAnalysis,
     dependencies,
     yaml,
-    graphql
+    graphql,
+    prettier
 );
 
 if (process.env.DEBUG) console.log({ config });

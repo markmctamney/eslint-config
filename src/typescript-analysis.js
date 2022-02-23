@@ -1,5 +1,5 @@
-module.exports = {
-    parserOptions: { ecmaVersion: 8 }, // to enable features such as async/await
+const typescriptAnalysis = {
+    parserOptions: { ecmaVersion: 8 },
     overrides: [
         /** TypeScript checking */
         {
@@ -10,3 +10,5 @@ module.exports = {
         },
     ],
 };
+
+module.exports = typescriptAnalysis;

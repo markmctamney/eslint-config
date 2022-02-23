@@ -1,4 +1,4 @@
-module.exports = {
+const json = {
     overrides: [
         /* -------------------------------------------------------------------------- */
         /*                                    JSON                                    */
@@ -20,3 +20,5 @@ module.exports = {
         },
     ],
 };
+
+module.exports = json;

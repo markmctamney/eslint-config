@@ -267,6 +267,6 @@
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "eslint.nodePath": ".yarn/sdks",
-  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
+  // "eslint.nodePath": ".yarn/sdks",
+  // "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }

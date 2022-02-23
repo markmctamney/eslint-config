@@ -1,3 +1,5 @@
-module.exports = {
+const monorepo = {
     extends: ['plugin:monorepo/recommended'],
 };
+
+module.exports = monorepo;

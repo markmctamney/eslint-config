@@ -25,6 +25,7 @@
     "ypresto.vscode-intelli-refactor",
     "arcanis.vscode-zipfs",
     "esbenp.prettier-vscode",
-    "GitHub.copilot-nightly"
+    "GitHub.copilot-nightly",
+    "foxundermoon.shell-format"
   ]
 }
