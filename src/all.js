@@ -1,4 +1,5 @@
 const base = require('./base');
+const dependencies = require('./dependencies');
 const graphql = require('./graphql');
 const imports = require('./imports');
 const json = require('./json');
@@ -26,6 +27,7 @@ const config = merge(
     web,
     typescript,
     // typescriptAnalysis,
+    dependencies,
     yaml,
     graphql
 );
