@@ -22,6 +22,8 @@ module.exports = {
         },
     },
 
+    plugins: ['@typescript-eslint'],
+
     extends: [
         'plugin:import/typescript',
 
