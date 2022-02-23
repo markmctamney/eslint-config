@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ['plugin:import/errors', 'plugin:import/warnings'],
+    extends: ['plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript'],
 
     plugins: ['import'],
 
