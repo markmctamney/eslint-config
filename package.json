@@ -11,7 +11,8 @@
         "lint": "eslint ."
     },
     "files": [
-        "src/*.js"
+        "src/all.js",
+        "src/native.js"
     ],
     "peerDependencies": {
         "eslint": "*",
