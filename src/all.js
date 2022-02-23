@@ -1,4 +1,5 @@
 const base = require('./base');
+const graphql = require('./graphql');
 const imports = require('./imports');
 const json = require('./json');
 const monorepo = require('./monorepo');
@@ -12,7 +13,18 @@ const yaml = require('./yaml');
 const merge = require('ts-deepmerge').default;
 
 // Deep merge configs
-const config = merge(base, imports, json, monorepo, native, react, typescript, typescriptAnalysis, yaml);
+const config = merge(
+    base,
+    imports,
+    json,
+    monorepo,
+    native,
+    react,
+    typescript,
+    // typescriptAnalysis,
+    yaml,
+    graphql
+);
 
 console.log({ config });
 

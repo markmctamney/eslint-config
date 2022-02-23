@@ -63,7 +63,7 @@ module.exports = {
         {
             files: ['**/*.ts', '**/*.tsx', '**/*.d.ts'],
             parser: '@typescript-eslint/parser',
-            parserOptions: { project: ['**/tsconfig.json'] },
+            // parserOptions: { project: ['**/tsconfig.json'] },
             // extends: ['universe/shared/typescript-analysis'],
         },
     ],
