@@ -27,15 +27,7 @@ module.exports = {
         'import/order': [
             'warn',
             {
-                groups: [
-                    'unknown',
-                    'type',
-                    'object',
-                    'builtin',
-                    'external',
-                    ['parent', 'sibling'],
-                    'index',
-                ],
+                groups: ['unknown', 'type', 'object', 'builtin', 'external', ['parent', 'sibling'], 'index'],
                 pathGroups: [
                     {
                         pattern: '@nexpo/**', // TODO: unhardcode

@@ -1,71 +1,272 @@
 {
-    "editor.formatOnSave": true,
-    "eslint.format.enable": true,
-    "eslint.alwaysShowStatus": true,
-    "editor.codeActionsOnSave": {
-        "source.removeUnused": false,
-        "source.addMissingImports": true,
-        "source.fixAll": true,
-        "source.organizeImports": false,
+  // Editor
+  "editor.autoIndent": "full",
+  "editor.fontFamily": "Fira Code, Cascadia Code, Inconsolata, 'Courier New'",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint", // "esbenp.prettier-vscode", // "dbaeumer.vscode-eslint",
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    // "source.removeUnused": true, // Set keybinding `Shift+Alt+Z` to do this instead
+    "source.addMissingImports": true,
+    "source.fixAll": true
+  },
+  "search.showLineNumbers": true,
+  // "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "workbench.tree.indent": 24,
+  "editor.autoSurround": "languageDefined",
+  "workbench.tree.renderIndentGuides": "always",
+  // "editor.foldingImportsByDefault": true,
+  // ESLint
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.format.enable": true,
+  "eslint.debug": true,
+  "eslint.packageManager": "yarn",
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5",
+    "yaml",
+    "toml",
+    "shellscript"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5",
+    "yaml",
+    "toml",
+    "shellscript"
+  ],
+  // TypeScript
+  "typescript.autoClosingTags": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.preferences.importModuleSpecifier": "project-relative", //  "project-relative",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.suggest.includeCompletionsForImportStatements": true,
+  "typescript.suggest.includeAutomaticOptionalChainCompletions": true,
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
+  "typescript.suggest.completeJSDocs": true,
+  "typescript.suggest.enabled": true,
+  "typescript.suggest.paths": true,
+  "typescript.suggestionActions.enabled": true,
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "vsintellicode.typescript.completionsEnabled": true,
+  // "typescript.inlayHints.enumMemberValues.enabled": true,
+  // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  // "typescript.inlayHints.parameterTypes.enabled": true,
+  // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // "typescript.inlayHints.variableTypes.enabled": true,
+  // Extensions
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "emmet.includeLanguages": {
+    "velocity": "html"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  "github.copilot.advanced": {
+    "length": 1000,
+    "debug.autocomplete.showConfidence": true,
+    "debug.enableRefactor": true,
+    "debug.showScores": true
+  },
+  /**
+     * VS Code Icons Custom Folder Icons
+     *
+     * @link https://github.com/vscode-icons/vscode-icons
+     *
+     * @example Add existing icon to additional filename patterns
+     * vsicons.associations.files": [{"icon": "expo", "extensions": ["not-app.json"], "filename": true}],
+     */
+  "vsicons.associations.folders": [
+    {
+      "icon": "aws",
+      "extensions": [
+        "api-amplify",
+        "amplify"
+      ]
     },
-    "eslint.packageManager": "yarn",
-    "eslint.codeActionsOnSave.mode": "all",
-    "eslint.probe": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-        "html",
-        "vue",
-        "markdown",
-        "json",
-        "jsonc",
-        "json5"
-    ],
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "json",
-        "jsonc",
-        "json5",
-        "yaml",
-        "toml"
-    ],
-    "typescript.suggest.completeFunctionCalls": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "typescript.autoClosingTags": true,
-    "typescript.implementationsCodeLens.enabled": true,
-    "typescript.suggest.autoImports": true,
-    "typescript.suggest.enabled": true,
-    "typescript.preferences.importModuleSpecifier": "non-relative",
-    "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-    "typescript.inlayHints.parameterTypes.enabled": true,
-    "typescript.inlayHints.enumMemberValues.enabled": true,
-    "typescript.inlayHints.variableTypes.enabled": true,
-    "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
-    "typescript.inlayHints.parameterNames.enabled": "all",
-    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
-    "vsintellicode.typescript.completionsEnabled": true,
-    "typescript.enablePromptUseWorkspaceTsdk": true,
-    "typescript.suggest.paths": true,
-    "typescript.suggestionActions.enabled": true,
-    "github.copilot.enable": {
-        "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": false
+    {
+      "icon": "typescript",
+      "extensions": [
+        "typescript-configs"
+      ]
     },
-    "github.copilot.advanced": {
-        "debug.autocomplete.showConfidence": true,
-        "debug.enableRefactor": true,
-        "debug.showScores": true
+    {
+      "icon": "view",
+      "extensions": [
+        "ui"
+      ]
     },
-    "files.exclude": {
-        ".git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
-        ".history": true,
+    {
+      "icon": "app",
+      "extensions": [
+        "apps"
+      ]
+    },
+    {
+      "icon": "view",
+      "extensions": [
+        "screens"
+      ]
+    },
+    {
+      "icon": "route",
+      "extensions": [
+        "navigation"
+      ]
+    },
+    {
+      "icon": "graphql",
+      "extensions": [
+        "api-amplify"
+      ]
+    },
+    {
+      "icon": "typescript",
+      "extensions": [
+        "ts-declarations",
+        "@types"
+      ]
+    },
+    {
+      "icon": "tools",
+      "extensions": [
+        "core"
+      ]
+    },
+    {
+      "icon": "docs",
+      "extensions": [
+        "guides"
+      ]
+    },
+    {
+      "icon": "package",
+      "extensions": [
+        ".yarn"
+      ]
+    },
+    {
+      "icon": "coverage",
+      "extensions": [
+        "coverage-ts"
+      ]
+    },
+    {
+      "icon": "next",
+      "extensions": [
+        "next"
+      ]
+    },
+    {
+      "icon": "expo",
+      "extensions": [
+        "expo"
+      ]
     }
+  ],
+  "vsicons.presets.tsOfficial": true,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "**/.classpath": false,
+    "**/.project": false,
+    "**/.settings": false,
+    "**/.factorypath": false,
+    "**/.husky": false,
+    "**/.github": false,
+    "**/*.d.ts": false,
+    "**/*.js.map": false,
+    "**/.history": false,
+    "**/.devcontainer": false,
+    "**/.vscode": false,
+    "**/patches/": false,
+    "**/.eslintignore": false,
+    ".amplify-graphql": false,
+    "**/.gitignore": false,
+    "**/.prettierrc.js": false,
+    "**/.watchmanconfig": false,
+    "eslintrc.nextjs.js": false,
+    "lerna.json": false,
+    "CLEAR-CACHE.md": false,
+    "**/* OLD": false,
+    "**/README.md": false,
+    "scripts/": false,
+    "**/.*": false,
+    "**/ios/": false,
+    "**/android/": false,
+    "**/node_modules/": false,
+    "**/styles/": false,
+    "**/next-env.d.ts": false,
+    "apps/next/install": false,
+    "**/metro.config.js": false,
+    "**/*.tsbuildinfo": false,
+    "**/dist/": false,
+    "yarn.lock": false,
+    "**/lambda-dist": false,
+    "templates/": false,
+    "plopfile.js": false,
+    "**/build/": false,
+    "**/guides/": false,
+    "coverage-ts": false,
+    "**/package.json": false,
+    "**/tsconfig.json": false,
+    "**/ts-declarations": false,
+    ".git": false
+  },
+  "npm.packageManager": "yarn",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "**/.next": true,
+    "**/.expo": true,
+    "__reference__": true,
+    "design/": true
+  },
+  "files.associations": {
+    "**/workspaces.json": "jsonc"
+  },
+  "json.format.enable": false,
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }

@@ -1,6 +1,30 @@
 {
-    "recommendations": [
-        "dbaeumer.vscode-eslint",
-        "mflo999.lintel"
-    ]
+  "recommendations": [
+    "mflo999.lintel",
+    "dbaeumer.vscode-eslint",
+    "visualstudioexptteam.vscodeintellicode",
+    "formulahendry.auto-close-tag",
+    "christian-kohler.path-intellisense",
+    "christian-kohler.npm-intellisense",
+    "coenraads.bracket-pair-colorizer-2",
+    "msjsdiag.vscode-react-native",
+    "wayou.vscode-todo-highlight",
+    "johnpapa.winteriscoming",
+    "pflannery.vscode-versionlens",
+    "knisterpeter.vscode-github",
+    "zainchen.json",
+    "apollographql.vscode-apollo",
+    "stkb.rewrap",
+    "kevinkyang.auto-comment-blocks",
+    "cssho.vscode-svgviewer",
+    "waderyan.gitblame",
+    "kisstkondoros.typelens",
+    "theshukran.theshukran-react-utils",
+    "bycedric.vscode-expo",
+    "mariusschulz.yarn-lock-syntax",
+    "ypresto.vscode-intelli-refactor",
+    "arcanis.vscode-zipfs",
+    "esbenp.prettier-vscode",
+    "GitHub.copilot-nightly"
+  ]
 }

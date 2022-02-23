@@ -1,13 +1,7 @@
 {
     "compilerOptions": {
         "target": "esnext",
-        "lib": [
-            "dom",
-            "es6",
-            "es2016.array.include",
-            "es2017.object",
-            "esnext"
-        ],
+        "lib": ["dom", "es6", "es2016.array.include", "es2017.object", "esnext"],
         "allowJs": true,
         "skipLibCheck": true,
         "noEmit": true,
@@ -26,12 +20,5 @@
         "sourceMap": true,
         "experimentalDecorators": true
     },
-    "exclude": [
-        "node_modules",
-        "babel.config.js",
-        ".eslintrc.js",
-        "metro.config.js",
-        "jest.config.js",
-        ".history"
-    ]
+    "exclude": ["node_modules", "babel.config.js", ".eslintrc.js", "metro.config.js", "jest.config.js", ".history"]
 }

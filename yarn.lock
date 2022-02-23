@@ -424,6 +424,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/eslint-plugin-next@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "@next/eslint-plugin-next@npm:12.1.0"
+  dependencies:
+    glob: 7.1.7
+  checksum: d6875f65e102f62fe90495229862f838fed00508980edff376c8c0e8ddf6c47a1a030fc2f8906890e08e34740cd174e5d70ecefa9ace81edda9949fa7ad06763
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1390,10 +1399,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-markmctamney@workspace:."
   dependencies:
+    "@babel/eslint-plugin": ^7.16.5
+    "@next/eslint-plugin-next": ^12.1.0
     "@types/prettier": ^2.4.4
     "@typescript-eslint/eslint-plugin": ^5.12.1
     "@typescript-eslint/parser": ^5.12.1
     eslint: ^8.9.0
+    eslint-config-prettier: ^8.4.0
     eslint-config-universe: ^10.0.0
     eslint-import-resolver-typescript: ^2.5.0
     eslint-plugin-graphql: ^4.0.0
@@ -1404,12 +1416,15 @@ __metadata:
     eslint-plugin-jsonc: ^2.2.1
     eslint-plugin-jsx-a11y: ^6.5.1
     eslint-plugin-monorepo: ^0.3.2
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-prettier: ^4.0.0
     eslint-plugin-react: ^7.28.0
     eslint-plugin-react-hooks: ^4.3.0
     eslint-plugin-react-native: ^4.0.0
     eslint-plugin-yaml: ^0.5.0
     jsonc-eslint-parser: ^2.1.0
     prettier: ^2.5.1
+    ts-deepmerge: ^2.0.1
     typescript: ^4.5.5
   peerDependencies:
     eslint: "*"
@@ -1422,7 +1437,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"eslint-config-prettier@npm:^8.3.0":
+"eslint-config-prettier@npm:^8.3.0, eslint-config-prettier@npm:^8.4.0":
   version: 8.4.0
   resolution: "eslint-config-prettier@npm:8.4.0"
   peerDependencies:
@@ -2156,7 +2171,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3":
+"glob@npm:7.1.7, glob@npm:^7.1.1, glob@npm:^7.1.2, glob@npm:^7.1.3":
   version: 7.1.7
   resolution: "glob@npm:7.1.7"
   dependencies:
@@ -3863,6 +3878,13 @@ resolve@^2.0.0-next.3:
   dependencies:
     eslint-visitor-keys: ^3.0.0
   checksum: 80bf422bd51a3b6142979ec113a91e57472cbec4471273edcc6b9412439b816444de091fcd61a3ca2918fb29245f7f2504d87597bafa7796eca261d7bf9e655c
+  languageName: node
+  linkType: hard
+
+"ts-deepmerge@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "ts-deepmerge@npm:2.0.1"
+  checksum: 1d41981364192b521ce375740646ac2e00d7e3815c066624159309d3a2e43100449bc05c56d51938a1e5be444b0ca88ad9ce599fc489719805b9a2e9d4153194
   languageName: node
   linkType: hard
 
