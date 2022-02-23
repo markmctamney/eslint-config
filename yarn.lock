@@ -498,6 +498,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^17.0.21":
+  version: 17.0.21
+  resolution: "@types/node@npm:17.0.21"
+  checksum: 89dcd2fe82f21d3634266f8384e9c865cf8af49685639fbdbd799bdd1040480fb1e8eeda2d3b9fce41edbe704d2a4be9f427118c4ae872e8d9bb7cbeb3c41a94
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -1401,6 +1408,7 @@ __metadata:
   dependencies:
     "@babel/eslint-plugin": ^7.16.5
     "@next/eslint-plugin-next": ^12.1.0
+    "@types/node": ^17.0.21
     "@types/prettier": ^2.4.4
     "@typescript-eslint/eslint-plugin": ^5.12.1
     "@typescript-eslint/parser": ^5.12.1
@@ -1422,6 +1430,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.3.0
     eslint-plugin-react-native: ^4.0.0
     eslint-plugin-yaml: ^0.5.0
+    graphql: ^16.3.0
     jsonc-eslint-parser: ^2.1.0
     prettier: ^2.5.1
     ts-deepmerge: ^2.0.1
@@ -2307,6 +2316,13 @@ __metadata:
   peerDependencies:
     graphql: ">=0.11 <=15"
   checksum: f74f5d42843798136202bed9766d2ac6ce614950d31a69d5b935b4f41255d3ace8329b659658fe88a45a4dad43c0d668361b826889d0191859839856084c1eb9
+  languageName: node
+  linkType: hard
+
+"graphql@npm:^16.3.0":
+  version: 16.3.0
+  resolution: "graphql@npm:16.3.0"
+  checksum: ba540641e9cd2a8de5b989ff1433b015f232fa73aaef478d6709c1339cd43113347917acb965a5799c004667687852fc8ff0cfaa935eb26374c91c1fd7fdaeb1
   languageName: node
   linkType: hard
 

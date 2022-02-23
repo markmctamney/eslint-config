@@ -1,4 +1,4 @@
-module.exports = {
+const base = {
     // root: true,
     env: {
         browser: true,
@@ -10,3 +10,5 @@ module.exports = {
 
     parserOptions: { ecmaVersion: 8 }, // to enable features such as async/await
 };
+
+module.exports = base;
