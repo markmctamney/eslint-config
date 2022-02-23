@@ -5,11 +5,22 @@
     "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
     "author": "Mark McTamney",
     "license": "MIT",
-    "private": true,
+    "private": false,
     "scripts": {
         "packages": "./install-packages.sh",
         "lint": "eslint ."
     },
+    "keywords": [
+        "eslint-config",
+        "expo",
+        "react-native",
+        "typescript",
+        "json",
+        "yaml",
+        "prettier",
+        "imports",
+        "graphql"
+    ],
     "files": [
         "all.js",
         "default.js",
