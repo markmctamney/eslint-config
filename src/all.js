@@ -6,7 +6,7 @@ const native = require('./native');
 // const next = require('./next');
 const react = require('./react');
 const typescript = require('./typescript');
-const typescriptAnalysis = require('./typescript-analysis');
+// const typescriptAnalysis = require('./typescript-analysis');
 const yaml = require('./yaml');
 
 const merge = require('ts-deepmerge').default;
