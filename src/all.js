@@ -8,7 +8,7 @@ const node = require('./node');
 // const next = require('./next');
 const react = require('./react');
 const typescript = require('./typescript');
-const typescriptAnalysis = require('./typescript-analysis');
+// const typescriptAnalysis = require('./typescript-analysis');
 const web = require('./web');
 const yaml = require('./yaml');
 
@@ -25,7 +25,7 @@ const config = merge(
     react,
     web,
     typescript,
-    typescriptAnalysis,
+    // typescriptAnalysis,
     yaml,
     graphql
 );
