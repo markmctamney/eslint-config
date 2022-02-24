@@ -1,10 +1,10 @@
-!.prettierrc.json
 # !.eslintrc.js
-!package.json
-!next.config.js
-!*.json
-# *.config.js
-tsconfig.json
+# !package.json
+# !next.config.js
+# !*.json
+# # *.config.js
+# tsconfig.json
+# tsconfig.*.json
 
 # Ignore all node_modules
 **/node_modules/**
@@ -24,6 +24,8 @@ tsconfig.json
 .history/
 .expo/
 .vscode/
+
+# !.vscode/*.json
 
 cdk.out
 lambda-dist

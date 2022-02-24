@@ -114,7 +114,7 @@ coverage-ts
 aws-exports.js
 
 # Typescript
-# dist/
+dist/
 *.tsbuildinfo
 *.d.ts
 *.js.map

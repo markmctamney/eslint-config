@@ -1,6 +1,6 @@
 const eslintConfig = {
     root: true,
-    extends: './dist/node.js',
+    extends: [require.resolve('./dist/default.js')],
     settings: {
         react: {
             version: '1000.0.0',
