@@ -1,6 +1,6 @@
 {
-    "name": "eslint-config-markmctamney",
-    "version": "1.0.15",
+    "name": "@markmctamney/eslint-config-markmctamney",
+    "version": "1.0.20",
     "main": "default.js",
     "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
@@ -34,7 +34,8 @@
         "native.js",
         "next.js",
         "node.js",
-        "web.js"
+        "web.js",
+        "shared"
     ],
     "peerDependencies": {
         "@babel/core": ">=7.16",
