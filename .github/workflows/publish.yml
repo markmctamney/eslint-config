@@ -58,9 +58,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
+          registry-url: 'https://registry.yarnpkg.com'
           # registry-url: 'https://npm.pkg.github.com' # Already set in .yarnrc.yml
           # Defaults to the user or organization that owns the workflow file
-          # scope: '@markmctamney'
+          scope: '@markmctamney'
       # - run: yarn --immutable
       # - run: yarn prepublish
       - run: yarn

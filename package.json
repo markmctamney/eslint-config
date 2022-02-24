@@ -1,6 +1,6 @@
 {
     "name": "@markmctamney/eslint-config-markmctamney",
-    "version": "1.0.20",
+    "version": "1.0.21",
     "main": "default.js",
     "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
