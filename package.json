@@ -92,5 +92,6 @@
         "prettier": {
             "optional": true
         }
-    }
+    },
+    "packageManager": "yarn@3.2.0"
 }
