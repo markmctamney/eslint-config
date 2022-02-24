@@ -1,14 +1,12 @@
-const base = {
+ const baseConfig = {
     // root: true,
     env: {
         browser: true,
         node: true,
         es6: true,
     },
-
     extends: ['universe'],
+    parserOptions: { ecmaVersion: 8 },
+} as const;
 
-    parserOptions: { ecmaVersion: 8 }, // to enable features such as async/await
-};
-
-module.exports = base;
+export default { ...baseConfig };

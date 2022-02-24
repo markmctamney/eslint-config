@@ -1,6 +1,8 @@
+"use strict";
+exports.__esModule = true;
 // Deep merge configs
-const config = {
-    extends: [
+var config = {
+    "extends": [
         './dependencies',
         './monorepo',
         './native',
@@ -16,9 +18,8 @@ const config = {
         './shared/typescript-analysis',
         './shared/yaml',
         './web',
-    ],
+    ]
 };
-
-if (process.env.DEBUG) console.log({ config });
-
-module.exports = config;
+if (process.env.DEBUG)
+    console.log({ config: config });
+exports["default"] = config;

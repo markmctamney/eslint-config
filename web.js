@@ -1,5 +1,5 @@
-const web = {
-    extends: ['universe/web'],
+"use strict";
+var web = {
+    "extends": ['universe/web']
 };
-
 module.exports = web;

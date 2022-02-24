@@ -8,6 +8,7 @@
     },
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
     "license": "MIT",
+    "type": "module",
     "scripts": {
         "packages": "./install-packages.sh",
         "lint": "eslint .",
@@ -16,7 +17,10 @@
         "publish": "yarn npm publish",
         "release": "gh release create $npm_package_version",
         "ci": "yarn install",
-        "tc": "yarn tsc"
+        "tc": "yarn tsc --noEmit",
+        "build": "yarn tsc",
+        "clean": "rm -rf **/*.d.ts; rm -rf ./shared; rm -rf ./*.ts;",
+        "build:clean": "yarn clean; yarn build;"
     },
     "keywords": [
         "eslint-config",

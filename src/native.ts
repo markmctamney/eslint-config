@@ -1,6 +1,6 @@
-"use strict";
-var native = {
-    "extends": ['universe/native', 'plugin:react-native/all'],
+const native = {
+    extends: ['universe/native', 'plugin:react-native/all'],
+
     rules: {
         /* -------------------------------------------------------------------------- */
         /*                                React Native                                */
@@ -10,7 +10,8 @@ var native = {
         'react-native/no-inline-styles': 'warn',
         'react-native/no-color-literals': 'warn',
         'react-native/sort-styles': 0,
-        'react-native/no-raw-text': ['off', { skip: ['RNText', 'NativeText'] }]
-    }
-};
-module.exports = native;
+        'react-native/no-raw-text': ['off', { skip: ['RNText', 'NativeText'] }],
+    },
+} as const;
+
+export default native;

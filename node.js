@@ -1,5 +1,6 @@
-const nodeConfig = {
-    extends: ['universe/node'],
+"use strict";
+exports.__esModule = true;
+var nodeConfig = {
+    "extends": ['universe/node']
 };
-
-module.exports = nodeConfig;
+exports["default"] = nodeConfig;
