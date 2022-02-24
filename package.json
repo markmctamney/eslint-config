@@ -1,6 +1,6 @@
 {
     "name": "@markmctamney/eslint-config-markmctamney",
-    "version": "1.0.30",
+    "version": "1.0.31",
     "main": "default.js",
     "repository": {
         "type": "git",
