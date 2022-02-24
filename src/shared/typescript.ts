@@ -38,5 +38,6 @@ const typescript = {
       }
     ]
   }
-};
-module.exports = typescript;
+} as const;
+
+export default typescript;

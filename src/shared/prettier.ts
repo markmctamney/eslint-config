@@ -1,11 +1,13 @@
-const prettier = require("prettier");
+import * as prettier from 'prettier';
+
 const defaultPrettierConfig = {
   printWidth: 100,
   tabWidth: 4,
   singleQuote: true,
   trailingComma: "es5",
   semi: true
-};
+} as const;
+
 const prettierConfig = {
   extends: ["prettier"],
   plugins: ["prettier"],
@@ -15,5 +17,6 @@ const prettierConfig = {
       prettier.resolveConfig.sync(process.cwd()) || defaultPrettierConfig
     ]
   }
-};
-module.exports = prettierConfig;
+} as const;
+
+export default prettierConfig;

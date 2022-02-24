@@ -23,5 +23,6 @@ const react = {
       }
     ]
   }
-};
-module.exports = react;
+} as const;
+
+export default react;

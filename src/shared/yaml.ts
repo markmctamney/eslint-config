@@ -1,5 +1,6 @@
 const yaml = {
   extends: ["plugin:yaml/recommended"],
   plugins: ["yaml"]
-};
-module.exports = yaml;
+} as const;
+
+export default yaml;

@@ -9,4 +9,4 @@
     parserOptions: { ecmaVersion: 8 },
 } as const;
 
-export default { ...baseConfig };
+export = { ...baseConfig };

@@ -1,19 +1,21 @@
-const merge = require("ts-deepmerge").default;
-const dependencies = require("./dependencies");
-const monorepo = require("./monorepo");
-const native = require("./native");
-const next = require("./next");
-const node = require("./node");
-const base = require("./shared/base");
-const graphql = require("./shared/graphql");
-const imports = require("./shared/imports");
-const json = require("./shared/json");
-const prettier = require("./shared/prettier");
-const react = require("./shared/react");
-const typescript = require("./shared/typescript");
-const typescriptAnalysis = require("./shared/typescript-analysis");
-const yaml = require("./shared/yaml");
-const web = require("./web");
+import dependencies from "./dependencies";
+import monorepo from "./monorepo";
+import native from "./native";
+import next from "./next";
+import node from "./node";
+import base from "./shared/base";
+import graphql from "./shared/graphql";
+import imports from "./shared/imports";
+import json from "./shared/json";
+import web from "./web";
+import prettier from './shared/prettier';
+
+import merge from 'ts-deepmerge';
+import react from "./shared/react";
+import typescript from "./shared/typescript";
+import typescriptAnalysis from "./shared/typescript-analysis";
+import yaml from "./shared/yaml";
+
 // Deep merge configs
 const config = merge(
   base,
@@ -33,4 +35,5 @@ const config = merge(
   prettier
 );
 if (process.env.DEBUG) console.log({ config });
-module.exports = config;
+
+export default config;

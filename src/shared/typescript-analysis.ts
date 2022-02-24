@@ -9,5 +9,6 @@ const typescriptAnalysis = {
       extends: ["universe/shared/typescript-analysis"]
     }
   ]
-};
-module.exports = typescriptAnalysis;
+} as const;
+
+export default typescriptAnalysis;

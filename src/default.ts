@@ -17,6 +17,7 @@ const config = {
     "./shared/yaml",
     "./web"
   ]
-};
+} as const;
+
 if (process.env.DEBUG) console.log({ config });
 export default config;

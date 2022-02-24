@@ -1,4 +1,4 @@
-export default {
+const imports = {
   extends: [
     "plugin:import/errors",
     "plugin:import/warnings",
@@ -48,4 +48,6 @@ export default {
       }
     }
   ]
-};
+} as const;
+
+export default imports;

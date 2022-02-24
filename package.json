@@ -1,14 +1,13 @@
 {
     "name": "@markmctamney/eslint-config",
     "version": "1.0.3",
-    "main": "default.js",
+    "main": "dist/default.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/markmctamney/eslint-config-markmctamney.git"
     },
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
     "license": "MIT",
-    "type": "module",
     "scripts": {
         "packages": "./install-packages.sh",
         "lint": "eslint .",
@@ -19,7 +18,7 @@
         "ci": "yarn install",
         "tc": "yarn tsc --noEmit",
         "build": "yarn tsc",
-        "clean": "rm -rf **/*.d.ts; rm -rf ./shared; rm -rf ./*.ts;",
+        "clean": "rm -rf ./dist",
         "build:clean": "yarn clean; yarn build;"
     },
     "keywords": [
@@ -34,31 +33,27 @@
         "graphql"
     ],
     "files": [
-        "all.js",
-        "default.js",
-        "dependencies.js",
-        "monorepo.js",
-        "native.js",
-        "next.js",
-        "node.js",
-        "web.js",
-        "shared"
+        "dist",
+        "dist/shared"
     ],
     "peerDependencies": {
         "@babel/core": ">=7.16",
         "@babel/eslint-parser": "*",
+        "@types/react": "*",
+        "@types/react-native": "*",
         "eslint": ">=8",
         "graphql": ">=16",
-        "prettier": ">=2.5",
-        "typescript": ">=4.5"
+        "prettier": ">=2.5"
     },
     "devDependencies": {
         "@babel/core": "^7.17.5",
         "@babel/eslint-parser": "^7.17.0",
         "@babel/eslint-plugin": "^7.16.5",
-        "@types/babel__core": "^7",
+        "@types/babel__core": "^7.1.18",
         "@types/node": "^17.0.21",
         "@types/prettier": "^2.4.4",
+        "@types/react": "^17.0.39",
+        "@types/react-native": "^0.66.16",
         "eslint": "^8.9.0",
         "eslint-plugin-node": "^11.1.0",
         "graphql": "^16.3.0",
