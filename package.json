@@ -13,7 +13,7 @@
         "prepublish": "yarn tc && yarn lint:fix && yarn test",
         "publish": "yarn npm publish",
         "release": "gh release create $npm_package_version",
-        "ci": "yarn lint && yarn tc && yarn test",
+        "ci": "yarn install",
         "tc": "yarn tsc"
     },
     "keywords": [
@@ -88,8 +88,5 @@
         "prettier": {
             "optional": true
         }
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
     }
 }
