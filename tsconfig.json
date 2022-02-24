@@ -1,15 +1,19 @@
 {
-    "extends": "./tsconfig.base.json",
-
-    "include": [
-        "shared/**/*.js",
-        "default.js",
-        "native.js",
-        "web.js",
-        "next.js",
-        "node.js",
-        "monorepo.js",
-        "dependencies.js"
-    ],
-    "exclude": ["node_modules", ".yarn", ".history"]
+    "compilerOptions": {
+        "target": "esnext",
+        "skipLibCheck": true,
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strict": true,
+        "checkJs": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "types": ["node"]
+    },
+    "exclude": ["node_modules", ".yarn", ".history", ".git", ".github", ".vscode", "__tests__"]
 }

@@ -1,13 +1,19 @@
 {
     "name": "eslint-config-markmctamney",
-    "version": "1.0.1",
+    "version": "1.0.3-0",
     "main": "default.js",
     "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
-    "author": "Mark McTamney",
+    "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
     "license": "MIT",
     "scripts": {
         "packages": "./install-packages.sh",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "lint:fix": "yarn lint --fix",
+        "test": "echo \"No tests set up yet.\" && exit 0",
+        "prepublish": "yarn tc && yarn lint:fix && yarn test",
+        "publish": "yarn npm publish",
+        "ci": "yarn lint",
+        "tc": "yarn tsc"
     },
     "keywords": [
         "eslint-config",
@@ -81,5 +87,6 @@
         "prettier": {
             "optional": true
         }
-    }
+    },
+    "stableVersion": "1.0.2"
 }
