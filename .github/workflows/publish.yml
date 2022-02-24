@@ -53,11 +53,19 @@ jobs:
       contents: read
       packages: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/cache@v2
         with:
-          node-version: 16
-          registry-url: https://npm.pkg.github.com/
+          path: ${{ build.steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ build.steps.yarn-cache.key }}
+          # key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          # restore-keys: |
+          #     ${{ runner.os }}-yarn-
+
+      # - uses: actions/checkout@v2
+      # - uses: actions/setup-node@v2
+      #   with:
+      #     node-version: 16
+      #     registry-url: https://npm.pkg.github.com/
       # - run: yarn ci
       - run: yarn publish
         env:
