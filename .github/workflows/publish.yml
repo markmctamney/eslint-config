@@ -89,9 +89,9 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_PAT: ${{ secrets.GH_PAT }}
+          # GITHUB_PAT: ${{ secrets.GH_PAT }}
 
-      - name: Setup .yarnrc.yml
-        run: |
-          echo ${{ secrets }}
-          echo ${{ env }}
+      # - name: Setup .yarnrc.yml
+      #   run: |
+      #     echo ${{ secrets }}
+      #     echo ${{ env }}
