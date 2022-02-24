@@ -13,12 +13,10 @@
         "lint": "eslint .",
         "lint:fix": "yarn lint --fix",
         "test": "echo \"No tests set up yet.\" && exit 0",
-        "prepublish": "yarn tc && yarn lint && yarn test",
         "publish": "yarn npm publish",
         "release": "gh release create $npm_package_version",
         "ci": "yarn install",
-        "tc": "yarn tsc",
-        "user": "echo \"${NPM_AUTH_TOKEN}\""
+        "tc": "yarn tsc"
     },
     "keywords": [
         "eslint-config",
