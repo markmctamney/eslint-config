@@ -47,7 +47,7 @@ jobs:
   #     - run: yarn test
 
   publish-gpr:
-    needs: build
+    # needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
