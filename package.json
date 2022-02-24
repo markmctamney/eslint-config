@@ -1,8 +1,8 @@
 {
-    "name": "@markmctamney/eslint-config-markmctamney",
-    "version": "1.0.14",
+    "name": "eslint-config-markmctamney",
+    "version": "1.0.15",
     "main": "default.js",
-    "repository": "git://github.com/markmctamney/eslint-config-markmctamney.git",
+    "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
     "license": "MIT",
     "scripts": {
