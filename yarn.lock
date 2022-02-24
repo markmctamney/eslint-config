@@ -679,9 +679,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@markmctamney/eslint-config-markmctamney@workspace:.":
+"@markmctamney/eslint-config@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@markmctamney/eslint-config-markmctamney@workspace:."
+  resolution: "@markmctamney/eslint-config@workspace:."
   dependencies:
     "@babel/core": ^7.17.5
     "@babel/eslint-plugin": ^7.16.5
