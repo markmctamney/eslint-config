@@ -59,7 +59,7 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com/
       - run: yarn --immutable
-      # - run: yarn ci
-      - run: yarn publish
+      - run: yarn prepublish
+      - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{ github.token }}
+          NODE_AUTH_TOKEN: ${{ github.token}}
