@@ -8,11 +8,9 @@ const json = {
         {
             files: ['**/*.json', '**/*.jsonc', '**/*.json5'],
             parser: 'jsonc-eslint-parser',
+            // parser: '@babel/eslint-parser',
 
-            extends: [
-                // 'plugin:jsonc/recommended-with-jsonc',
-                'plugin:json-schema-validator/recommended',
-            ],
+            extends: ['prettier', 'plugin:jsonc/recommended-with-jsonc', 'plugin:json-schema-validator/recommended'],
             rules: {
                 'no-irregular-whitespace': 0,
                 'json-schema-validator/no-invalid': 'error',

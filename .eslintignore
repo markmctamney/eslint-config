@@ -1,9 +1,10 @@
-!.prettierrc.js
+!.prettierrc.json
 # !.eslintrc.js
 !package.json
 !next.config.js
 !*.json
 # *.config.js
+tsconfig.json
 
 # Ignore all node_modules
 **/node_modules/**

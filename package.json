@@ -1,6 +1,6 @@
 {
     "name": "@markmctamney/eslint-config",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "main": "default.js",
     "repository": {
         "type": "git",
@@ -42,6 +42,7 @@
     ],
     "peerDependencies": {
         "@babel/core": ">=7.16",
+        "@babel/eslint-parser": "*",
         "eslint": ">=8",
         "graphql": ">=16",
         "prettier": ">=2.5",
@@ -49,6 +50,7 @@
     },
     "devDependencies": {
         "@babel/core": "^7.17.5",
+        "@babel/eslint-parser": "^7.17.0",
         "@babel/eslint-plugin": "^7.16.5",
         "@types/babel__core": "^7",
         "@types/node": "^17.0.21",
@@ -68,7 +70,6 @@
         "eslint-import-resolver-typescript": "^2.5.0",
         "eslint-plugin-graphql": "^4.0.0",
         "eslint-plugin-import": "^2.25.4",
-        "eslint-plugin-json": "^3.1.0",
         "eslint-plugin-json-format": "^2.0.1",
         "eslint-plugin-json-schema-validator": "^2.3.5",
         "eslint-plugin-jsonc": "^2.2.1",
@@ -84,6 +85,9 @@
     },
     "peerDependenciesMeta": {
         "@babel/core": {
+            "optional": true
+        },
+        "@babel/eslint-parser": {
             "optional": true
         },
         "graphql": {

@@ -255,7 +255,8 @@
     "**/.next": true,
     "**/.expo": true,
     "__reference__": true,
-    "design/": true
+    "design/": true,
+    ".git/": true,
   },
   "files.associations": {
     "**/workspaces.json": "jsonc"

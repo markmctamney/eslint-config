@@ -1,4 +1,4 @@
-{
+const prettierConfig = {
     "printWidth": 120,
     "tabWidth": 4,
     "trailingComma": "es5",
@@ -6,3 +6,5 @@
     "bracketSpacing": true,
     "semi": true
 }
+
+module.exports = prettierConfig;
