@@ -18,4 +18,4 @@ const next = {
   extends: ["plugin:@next/next/recommended"]
 } as const;
 
-export default next;
+export = next;

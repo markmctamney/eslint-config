@@ -50,4 +50,4 @@ const imports = {
   ]
 } as const;
 
-export default imports;
+export = imports;

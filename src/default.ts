@@ -20,4 +20,4 @@ const config = {
 } as const;
 
 if (process.env.DEBUG) console.log({ config });
-export default config;
+export = config;

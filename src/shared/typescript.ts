@@ -40,4 +40,4 @@ const typescript = {
   }
 } as const;
 
-export default typescript;
+export = typescript;

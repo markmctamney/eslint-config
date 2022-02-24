@@ -19,4 +19,4 @@ const prettierConfig = {
   }
 } as const;
 
-export default prettierConfig;
+export = prettierConfig;

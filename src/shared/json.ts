@@ -22,4 +22,4 @@ const json = {
   ]
 } as const;
 
-export default json;
+export = json;

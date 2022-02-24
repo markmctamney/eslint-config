@@ -14,4 +14,4 @@ const native = {
     },
 } as const;
 
-export default native;
+export = native;

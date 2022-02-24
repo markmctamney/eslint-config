@@ -3,7 +3,7 @@
         "module": "commonjs",
         "target": "es2015",
         "moduleResolution": "node",
-        "esModuleInterop": true,
+        "esModuleInterop": false,
         "allowSyntheticDefaultImports": true,
         "strictNullChecks": true,
         "strict": true,

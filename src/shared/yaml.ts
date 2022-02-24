@@ -3,4 +3,4 @@ const yaml = {
   plugins: ["yaml"]
 } as const;
 
-export default yaml;
+export = yaml;

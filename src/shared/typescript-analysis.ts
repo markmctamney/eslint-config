@@ -11,4 +11,4 @@ const typescriptAnalysis = {
   ]
 } as const;
 
-export default typescriptAnalysis;
+export = typescriptAnalysis;

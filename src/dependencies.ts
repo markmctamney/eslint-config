@@ -9,4 +9,4 @@ const dependencies = {
   }
 } as const;
 
-export default dependencies;
+export = dependencies;

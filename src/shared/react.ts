@@ -25,4 +25,4 @@ const react = {
   }
 } as const;
 
-export default react;
+export = react;

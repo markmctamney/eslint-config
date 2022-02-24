@@ -1,5 +1,5 @@
-export const graphql = {
+const graphql = {
     plugins: ['graphql'],
 } as const;
 
-export default graphql;
+export = graphql;
