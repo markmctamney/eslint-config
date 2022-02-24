@@ -1,6 +1,6 @@
 {
     "name": "@markmctamney/eslint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "default.js",
     "repository": {
         "type": "git",
@@ -32,6 +32,7 @@
     "files": [
         "all.js",
         "default.js",
+        "dependencies.js",
         "monorepo.js",
         "native.js",
         "next.js",
