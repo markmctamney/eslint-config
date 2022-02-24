@@ -1,4 +1,4 @@
- const baseConfig = {
+const baseConfig = {
     // root: true,
     env: {
         browser: true,

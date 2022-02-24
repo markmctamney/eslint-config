@@ -1,5 +1,5 @@
 const nodeConfig = {
-  extends: ["universe/node"]
+    extends: ['universe/node'],
 } as const;
 
 export = nodeConfig;

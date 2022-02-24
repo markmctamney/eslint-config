@@ -1,5 +1,5 @@
 const monorepo = {
-  extends: ["plugin:monorepo/recommended"]
+    extends: ['plugin:monorepo/recommended'],
 } as const;
 
 export = monorepo;
