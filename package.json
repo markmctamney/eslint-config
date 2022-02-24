@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-markmctamney",
-    "version": "1.0.3-0",
+    "version": "1.0.3",
     "main": "default.js",
     "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
@@ -12,6 +12,7 @@
         "test": "echo \"No tests set up yet.\" && exit 0",
         "prepublish": "yarn tc && yarn lint:fix && yarn test",
         "publish": "yarn npm publish",
+        "release": "gh release create $npm_package_version",
         "ci": "yarn lint",
         "tc": "yarn tsc"
     },
@@ -87,6 +88,5 @@
         "prettier": {
             "optional": true
         }
-    },
-    "stableVersion": "1.0.2"
+    }
 }
