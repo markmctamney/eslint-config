@@ -679,57 +679,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@markmctamney/eslint-config-markmctamney@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@markmctamney/eslint-config-markmctamney@workspace:."
-  dependencies:
-    "@babel/core": ^7.17.5
-    "@babel/eslint-plugin": ^7.16.5
-    "@next/eslint-plugin-next": ^12.1.0
-    "@types/babel__core": ^7
-    "@types/node": ^17.0.21
-    "@types/prettier": ^2.4.4
-    "@typescript-eslint/eslint-plugin": ^5.12.1
-    "@typescript-eslint/parser": ^5.12.1
-    eslint: ^8.9.0
-    eslint-config-prettier: ^8.4.0
-    eslint-config-universe: ^10.0.0
-    eslint-import-resolver-typescript: ^2.5.0
-    eslint-plugin-graphql: ^4.0.0
-    eslint-plugin-import: ^2.25.4
-    eslint-plugin-json: ^3.1.0
-    eslint-plugin-json-format: ^2.0.1
-    eslint-plugin-json-schema-validator: ^2.3.4
-    eslint-plugin-jsonc: ^2.2.1
-    eslint-plugin-jsx-a11y: ^6.5.1
-    eslint-plugin-monorepo: ^0.3.2
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react: ^7.28.0
-    eslint-plugin-react-hooks: ^4.3.0
-    eslint-plugin-react-native: ^4.0.0
-    eslint-plugin-yaml: ^0.5.0
-    graphql: ^16.3.0
-    jsonc-eslint-parser: ^2.1.0
-    prettier: ^2.5.1
-    ts-deepmerge: ^2.0.1
-    typescript: ^4.5.5
-  peerDependencies:
-    "@babel/core": ">=7.16"
-    eslint: ">=8"
-    graphql: ">=16"
-    prettier: ">=2.5"
-    typescript: ">=4.5"
-  peerDependenciesMeta:
-    "@babel/core":
-      optional: true
-    graphql:
-      optional: true
-    prettier:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "@microsoft/fetch-event-source@npm:2.0.1":
   version: 2.0.1
   resolution: "@microsoft/fetch-event-source@npm:2.0.1"
@@ -1800,6 +1749,57 @@ __metadata:
   checksum: 98b48897d93060f2322108bf29db0feba7dd774be96cd069458d1453347b25ce8682ecc39859d4bca2203cc0ab19c237bcc71755eff49a0f8d90beadeeba5cc5
   languageName: node
   linkType: hard
+
+"eslint-config-markmctamney@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "eslint-config-markmctamney@workspace:."
+  dependencies:
+    "@babel/core": ^7.17.5
+    "@babel/eslint-plugin": ^7.16.5
+    "@next/eslint-plugin-next": ^12.1.0
+    "@types/babel__core": ^7
+    "@types/node": ^17.0.21
+    "@types/prettier": ^2.4.4
+    "@typescript-eslint/eslint-plugin": ^5.12.1
+    "@typescript-eslint/parser": ^5.12.1
+    eslint: ^8.9.0
+    eslint-config-prettier: ^8.4.0
+    eslint-config-universe: ^10.0.0
+    eslint-import-resolver-typescript: ^2.5.0
+    eslint-plugin-graphql: ^4.0.0
+    eslint-plugin-import: ^2.25.4
+    eslint-plugin-json: ^3.1.0
+    eslint-plugin-json-format: ^2.0.1
+    eslint-plugin-json-schema-validator: ^2.3.4
+    eslint-plugin-jsonc: ^2.2.1
+    eslint-plugin-jsx-a11y: ^6.5.1
+    eslint-plugin-monorepo: ^0.3.2
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-prettier: ^4.0.0
+    eslint-plugin-react: ^7.28.0
+    eslint-plugin-react-hooks: ^4.3.0
+    eslint-plugin-react-native: ^4.0.0
+    eslint-plugin-yaml: ^0.5.0
+    graphql: ^16.3.0
+    jsonc-eslint-parser: ^2.1.0
+    prettier: ^2.5.1
+    ts-deepmerge: ^2.0.1
+    typescript: ^4.5.5
+  peerDependencies:
+    "@babel/core": ">=7.16"
+    eslint: ">=8"
+    graphql: ">=16"
+    prettier: ">=2.5"
+    typescript: ">=4.5"
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    graphql:
+      optional: true
+    prettier:
+      optional: true
+  languageName: unknown
+  linkType: soft
 
 "eslint-config-prettier@npm:^8.3.0, eslint-config-prettier@npm:^8.4.0":
   version: 8.4.0
