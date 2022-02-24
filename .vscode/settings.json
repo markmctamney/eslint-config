@@ -73,7 +73,7 @@
   "typescript.suggest.enabled": true,
   "typescript.suggest.paths": true,
   "typescript.suggestionActions.enabled": true,
-  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.tsdk": "node_modules/typescript/lib",
   "vsintellicode.typescript.completionsEnabled": true,
   // "typescript.inlayHints.enumMemberValues.enabled": true,
   // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
