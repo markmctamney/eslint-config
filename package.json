@@ -1,8 +1,8 @@
 {
-    "name": "eslint-config-markmctamney",
-    "version": "1.0.10",
+    "name": "@markmctamney/eslint-config-markmctamney",
+    "version": "1.0.11",
     "main": "default.js",
-    "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
+    "repository": "git://github.com/markmctamney/eslint-config-markmctamney.git",
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
     "license": "MIT",
     "scripts": {
@@ -88,5 +88,8 @@
         "prettier": {
             "optional": true
         }
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
     }
 }
