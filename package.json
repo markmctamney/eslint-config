@@ -1,8 +1,11 @@
 {
-    "name": "eslint-config-markmctamney",
-    "version": "1.0.26",
+    "name": "@markmctamney/eslint-config-markmctamney",
+    "version": "1.0.27",
     "main": "default.js",
-    "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/markmctamney/eslint-config-markmctamney.git"
+    },
     "author": "Mark McTamney <30511006+markmctamney@users.noreply.github.com>",
     "license": "MIT",
     "scripts": {
@@ -10,11 +13,12 @@
         "lint": "eslint .",
         "lint:fix": "yarn lint --fix",
         "test": "echo \"No tests set up yet.\" && exit 0",
-        "prepublish": "yarn tc && yarn lint:fix && yarn test",
+        "prepublish": "yarn tc && yarn lint && yarn test",
         "publish": "yarn npm publish",
         "release": "gh release create $npm_package_version",
         "ci": "yarn install",
-        "tc": "yarn tsc"
+        "tc": "yarn tsc",
+        "user": "echo \"${NPM_AUTH_TOKEN}\""
     },
     "keywords": [
         "eslint-config",
