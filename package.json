@@ -1,5 +1,5 @@
 {
-    "name": "@markmctamney/eslint-config-markmctamney",
+    "name": "eslint-config-markmctamney",
     "version": "1.0.24",
     "main": "default.js",
     "repository": "https://github.com/markmctamney/eslint-config-markmctamney",
