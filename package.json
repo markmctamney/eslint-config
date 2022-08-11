@@ -83,7 +83,7 @@
         "eslint-plugin-react-native": "^4.0.0",
         "eslint-plugin-yaml": "^0.5.0",
         "jsonc-eslint-parser": "^2.1.0",
-        "ts-deepmerge": "^2.0.1"
+        "ts-deepmerge": "^2.0.2"
     },
     "peerDependenciesMeta": {
         "@babel/core": {
