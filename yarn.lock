@@ -644,7 +644,7 @@ __metadata:
     graphql: ^16.3.0
     jsonc-eslint-parser: ^2.1.0
     prettier: ^2.5.1
-    ts-deepmerge: ^2.0.1
+    ts-deepmerge: ^5.0.0
     typescript: ^4.5.5
   peerDependencies:
     "@babel/core": ">=7.16"
@@ -4086,10 +4086,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-deepmerge@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "ts-deepmerge@npm:2.0.1"
-  checksum: 1d41981364192b521ce375740646ac2e00d7e3815c066624159309d3a2e43100449bc05c56d51938a1e5be444b0ca88ad9ce599fc489719805b9a2e9d4153194
+"ts-deepmerge@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "ts-deepmerge@npm:5.0.0"
+  checksum: 251557d72a4999fb70edf57e6b3d5afa129a6fdd62d6b06c57de3a931fa45740d3193b2b914632def85ae99f6a1f78657707397811108f3af5f3dbc64ea3d7fc
   languageName: node
   linkType: hard
 
